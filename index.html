@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>阿里云</title>
+
+	<!-- 引入css样式 -->
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/box.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/footer.css">
+
+
+
+	<!-- 引入javascript样式 -->
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/main.js" defer></script>
+	<script src="js/lunbotu.js"></script>
+	<script src="js/footer.js"></script>
+
+
+	<style>
+		@font-face {
+		  font-family: 'hexiaoxin';
+		  src:  url('./fonts/icomoon.eot') format('embedded-opentype'),
+		  		url('./fonts/icomoon.svg') format('svg'),
+		  		url('./fonts/icomoon.ttf') format('truetype'),
+		  		url('../fonts/icomoon.woff') format('woff');
+		}
+		@font-face {
+		  font-family: 'jiu';
+		  src:  url('./fonts/icomoon-1.eot') format('embedded-opentype'),
+		  		url('./fonts/icomoon-1.svg') format('svg'),
+		  		url('./fonts/icomoon-1.ttf') format('truetype'),
+		  		url('../fonts/icomoon-1.woff') format('woff');
+		}
+
+		header .head nav ul:nth-of-type(2) li i{
+			font-family: hexiaoxin;
+			font-style: normal;
+			font-size:20px;
+			font-weight:800;
+			position:absolute;
+			left:-15px;
+		}
+		#m-fixed ul li:nth-child(1) i{		
+			font-family: jiu;
+			font-style: normal;
+			font-size:14px;
+			font-weight:800;
+			position:absolute;
+			left:10px;	
+				
+		}
+	</style>
+</head>
+<body>
+	<!--最大的盒子开始  -->
+	<div id="container">
+				
+		<!--头部开始  -->
+		<header>
+			<div class="head">
+				<!--导航栏开始  -->
+				<nav>
+					<a href="#">
+						<img src="images/logo-1.png" alt="">
+						<img src="images/logo-46.gif" alt="">
+					</a>
+					<ul>
+						<div id="huaxian"></div>
+
+						<li id="maodian"><a href="#">最新活动<img src="images/hot.png" alt=""></a></li>
+						<li><a href="#">产品</a></li>
+						<li><a href="#">解决方案</a></li>
+						<li><a href="#">云市场</a></li>
+						<li><a href="#">大数据</a></li>
+						<li><a href="#">社区</a></li>
+						<li><a href="#">支持</a></li>
+						<li><a href="#">合作伙伴</a></li>
+						<li><a href="#">更多</a></li>
+					</ul>
+
+					<ul>
+						<li><a href="zhuce.html">注册有礼</a></li>	
+						<li><a href="denglu.html">登陆</a></li>	
+						<li><a href="#">备案</a></li>	
+						<li><a href="#"><i>a</i>控制台</a></li>	
+					</ul>
+				
+				<!--导航栏结束  -->
+				</nav>
+
+				<div class="head-tab">
+										
+					<div></div>
+
+					<div >
+						<img class="jiantou2" src="images/jiantou2.png" alt="">
+						<div class="h-t-one">
+							<ul>
+								<li class="h-t-xxk1">云计算基础服务</li>
+								<li>大数据（数加）&nbsp; ></li>
+								<li>安全（云盾）&nbsp; ></li>
+								<li>域名与网站（万网）&nbsp; ></li>
+							</ul>
+						</div>
+						<div class="h-t-two">
+							<div id="h-t-none">
+								<ul>
+								<li class="h-t-xxk2">弹性计算</li>
+								<li>数据库 &nbsp; ></li>
+								<li>存储与CDN</li>
+								<li>分析</li>
+								<li>云通信</li>
+								<li>网络</li>
+								<li>管理与监控</li>
+								<li>应用服务</li>
+								<li>互联网中间件</li>
+								<li>移动服务</li>
+								<li>视频服务</li>
+								</ul>
+							</div>
+	
+							<div class="h-t-hidden">
+								<ul>
+									
+									<h3>数据应用</h3>
+										
+									<li>推荐引擎</li>
+									<li>公众趋势分析</li>
+									<li>企业图谱</li>
+									<li>数据集成（公测中）</li>
+									<li>数据市场相关API及应用</li>
+								</ul>
+
+								<ul>
+									
+									<h3>数据分析展现</h3>
+										
+									<li>推荐引擎</li>
+									<li>公众趋势分析</li>
+									<li>企业图谱</li>
+									<li>数据集成（公测中）</li>
+									
+								</ul>
+
+								<ul>
+									
+									<h3>人工智能</h3>
+										
+									<li>推荐引擎</li>
+									<li>公众趋势分析</li>
+									<li>企业图谱</li>
+									<li>数据集成（公测中）</li>
+									<li>数据市场相关API及应用</li>
+								</ul>
+
+								<ul>
+									
+									<h3>大数据基础服务</h3>
+										
+									<li>推荐引擎</li>
+									<li>公众趋势分析</li>
+									<li>企业图谱</li>
+									<li>数据集成（公测中）</li>
+									
+								</ul>									
+							
+							</div>
+
+							<div class="h-t-hidden">
+								<ul>
+									
+									<h3>防御</h3>
+										
+									<li>服务器安全（安骑士）</li>
+									<li>Web应用防火墙（网络安全）</li>
+									<li>加密服务（数据安全）</li>
+									<li>数据风控（业务安全）</li>
+									<li>移动安全</li>
+									<li>数据安全险（安全服务）</li>
+								</ul>
+
+								<ul>
+									
+										
+									<li>DDoS高防IP（网络安全）</li>
+									<li>安全管家（安全服务）</li>
+									<li>绿网（内容安全）</li>
+									<li>CA证书服务（数据安全）</li>
+									<li>合作伙伴产品中心</li>
+									<li>云盾混合云</li>
+									
+								</ul>
+
+								
+																
+							</div>
+
+							
+
+
+
+
+						</div>
+						<div class="h-t-three">
+
+							<div >
+								<ul>
+									<li>
+										<h4> 云服务器 ECS</h4>
+										<p>可弹性扩展、安全、稳定、易用的计算服务</p>
+									</li>
+									<li>
+										<h4>GPU 云服务器 <img class="new" src="images/new.png" alt=""></h4>
+										<p>GPU实例、强大的计算性能、弹性按需扩展</p>
+									</li>
+									<li>
+										<h4>GPU 云服务器</h4>
+										<p>GPU实例、强大的计算性能、弹性按需扩展</p>
+									</li>
+									<li>
+										<h4> 云服务器 ECS</h4>
+										<p>可弹性扩展、安全、稳定、易用的计算服务</p>
+									</li>
+									<li>
+										<h4>GPU 云服务器</h4>
+										<p>GPU实例、强大的计算性能、弹性按需扩展</p>
+									</li>
+									<li>
+										<h4>GPU 云服务器</h4>
+										<p>GPU实例、强大的计算性能、弹性按需扩展</p>
+									</li>
+								</ul>
+
+								<ul>
+									<li>
+										<h4> 云服务器 ECS</h4>
+										<p>可弹性扩展、安全、稳定、易用的计算服务</p>
+									</li>
+									<li>
+										<h4>GPU 云服务器</h4>
+										<p>GPU实例、强大的计算性能、弹性按需扩展</p>
+									</li>
+									<li>
+										<h4>GPU 云服务器</h4>
+										<p>GPU实例、强大的计算性能、弹性按需扩展</p>
+									</li>
+									<li>
+										<h4> 云服务器 ECS</h4>
+										<p>可弹性扩展、安全、稳定、易用的计算服务</p>
+									</li>
+									<li>
+										<h4> 云服务器 ECS</h4>
+										<p>可弹性扩展、安全、稳定、易用的计算服务</p>
+									</li>
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<h3>关系数据库</h3>
+								<ul>
+									<li>MySQL</li>
+									<li>SQL Swever</li>
+									<li>PPAS</li>
+									<li>PostgreSQL</li>
+									<li>OceanBase</li>
+								</ul>
+
+								<h3>NoSQL数据库</h3>
+								<ul>
+									<li>Redis</li>
+									<li>MongoDB</li>
+									<li>Memcache</li>
+									<li>TableStore</li>
+									<li>HBase</li>
+								</ul>
+
+								<h3>分布式数据库</h3>
+								<ul>
+									<li>Redis</li>
+									
+								</ul>
+								<h3>分布式数据库</h3>
+								<ul>
+									<li>DTS</li>
+									<li>DMS</li>
+									
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+									<li>
+										<h4>CDN</h4>
+										<p>跨运营商、跨地域全网覆盖的网络加速服务</p>
+									</li>
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+									<li>
+										<h4>CDN</h4>
+										<p>跨运营商、跨地域全网覆盖的网络加速服务</p>
+									</li>
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+									<li>
+										<h4>CDN</h4>
+										<p>跨运营商、跨地域全网覆盖的网络加速服务</p>
+									</li>
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+									
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+									
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+									
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+									
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+									<li>
+										<h4>CDN</h4>
+										<p>跨运营商、跨地域全网覆盖的网络加速服务</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+									
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+									<li>
+										<h4>CDN</h4>
+										<p>跨运营商、跨地域全网覆盖的网络加速服务</p>
+									</li>
+									
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									<li>
+										<h4>归档存储</h4>
+										<p>海量数据的长期归档、备份服务</p>
+									</li>
+									
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>
+									<li>
+										<h4> 表格存储</h4>
+										<p>高并发、低延时、无限容量的Nosql数据存储服务</p>
+									</li>
+									<li>
+										<h4>CDN</h4>
+										<p>跨运营商、跨地域全网覆盖的网络加速服务</p>
+									</li>
+									
+								
+								</ul>
+							</div>
+
+							<div class="h-hidden">
+								<ul>
+									
+									<li>
+										<h4>对象存储 OSS</h4>
+										<p>海量、安全和高可靠的云存储服务</p>
+									</li>
+									<li>
+										<h4>文件存储</h4>
+										<p>无限扩展、多共享、标准文件协议的文件存储服务</p>
+									</li>
+									
+									
+								</ul>
+
+								<ul>
+									
+									<li>
+										<h4> 块存储</h4>
+										<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+									</li>									
+								
+								</ul>
+							</div>
+
+
+
+
+
+
+
+						</div>
+					</div>
+
+					<div></div>
+
+					<div class="hidden5">
+						<img class="jiantou2" src="images/jiantou2.png" alt="">
+						<ul>
+							<li>
+								<ol>
+									<h3>基础软件市场 &nbsp; ></h3>
+									<li>预装Windows</li>
+									<li>预装Linux</li>
+									<li>预装PHP环境</li>
+									<li>预装JAVA环境</li>
+									<li>预装ASP/.NET</li>
+									<li>预装全能环境</li>
+							
+								</ol>
+							</li>
+							
+							<li>
+								<ol>
+									<h3>网站建设  &nbsp; ></h3>
+									<li>预装Windows</li>
+									<li>预装Linux</li>
+									<li>预装PHP环境</li>
+									<li>预装JAVA环境</li>
+									<li>预装ASP/.NET</li>
+									<li>预装全能环境</li>
+							
+								</ol>
+							</li>
+
+							<li>
+								<ol>
+									<h3>企业应用 &nbsp; ></h3>
+									<li>预装Windows</li>
+									<li>预装Linux</li>
+									<li>预装PHP环境</li>
+									<li>预装JAVA环境</li>
+									<li>预装ASP/.NET</li>
+									<li>预装全能环境</li>
+							
+								</ol>
+							</li>
+
+							<li>
+								<ol>
+									<h3>服务与培训 &nbsp; ></h3>
+									<li>预装Windows</li>
+									<li>预装Linux</li>
+									<li>预装PHP环境</li>
+									<li>预装JAVA环境</li>
+									<li>预装ASP/.NET</li>
+									<li>预装全能环境</li>
+							
+								</ol>
+							</li>
+
+							<li>
+								<ol>
+									<h3>安全市场 &nbsp; ></h3>
+									<li>预装Windows</li>
+									<li>预装Linux</li>
+									<li>预装PHP环境</li>
+									<li>预装JAVA环境</li>
+									<li>预装ASP/.NET</li>
+									<li>预装全能环境</li>
+							
+								</ol>
+							</li>
+
+							<li>
+								<ol>
+									<h3>数据及API &nbsp; ></h3>
+									<li>预装Windows</li>
+									<li>预装Linux</li>
+									<li>预装PHP环境</li>
+									<li>预装JAVA环境</li>
+									<li>预装ASP/.NET</li>
+									<li>预装全能环境</li>
+							
+								</ol>
+							</li>
+							
+						
+						</ul>
+					</div>
+
+					<div></div>
+
+					<div class="hidden5">
+						<img class="jiantou2" src="images/jiantou2.png" alt="">
+						<ul>
+							<li>
+								<ol>
+									<h3>博客 &nbsp; ></h3>
+									<li>个人博客</li>
+									<li>公众号</li>									
+								</ol>
+							</li>
+							
+							<li>
+								<ol>
+									<h3>论坛   &nbsp; ></h3>
+									<li>产品讨论</li>
+									<li>开发者中心</li>
+									<li>新手帮帮团</li>
+									<li>域名交易专区</li>
+							
+								</ol>
+							</li>
+
+							<li>
+								<ol>
+									<h3>问答 &nbsp; ></h3>
+									<li>热门问答</li>
+									<li>通用技术</li>
+									<li>产品求助</li>
+							
+								</ol>
+							</li>
+
+							<li>
+								<ol>
+									<h3>云课堂 &nbsp; ></h3>
+									<li>云栖直播</li>
+									<li>产品学习</li>
+									<li>开发技术</li>
+							
+								</ol>
+							</li>
+
+						</ul>
+					</div>
+
+					<div class="hidden5" >
+						<img class="jiantou2" src="images/jiantou2.png" alt="">
+						<ul>
+							<li>
+								<ol>
+									<h3>支持计划</h3>
+									<li> 售后支持计划</li>
+									<li>尊享服务</li>
+									<li>区域服务</li>									
+								</ol>
+							</li>
+							
+							<li>
+								<ol>
+									<h3>帮助与文档 &nbsp; ></h3>
+									<li>文档</li>
+									<li>新手学堂</li>
+									<li>自主工具</li>
+									<li>建议与反馈</li>
+							
+								</ol>
+							</li>
+
+							<li>
+								<ol>
+									<h3>智能服务</h3>
+									<li>云博士</li>
+									<li>智能对话分析服务</li>
+							
+								</ol>
+							</li>
+
+							<li>
+								<ol>
+									<h3>开发者资源</h3>
+									<li>DevOps解决方案</li>
+									<li>CLI</li>
+									<li>API</li>
+									<li>SCK</li>
+							
+								</ol>
+							</li>							
+						</ul>
+					</div>
+		
+				
+				</div>
+
+			<!-- 轮播图开始 -->
+			<div id="head-lun">
+				<div id="lunbo">
+					<img src="lunbo/0.png" alt="">
+					<img src="lunbo/1.jpg" alt="">
+					<img src="lunbo/2.png" alt="">
+					<img src="lunbo/3.png" alt="">
+					<img src="lunbo/0.png" alt="">
+				</div>
+				
+
+
+				<ul id="lun-an">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+
+			<!-- 轮播图结束 -->
+			</div>
+			
+			<!-- 头部的最后一个盒子 -->
+			<div class="xia">
+				<ul>
+					<li><a href="##" title="行业品牌故事">行业品牌故事</a><b><img src="images/new.png" alt=""></b></li>
+					<li><a href="##" title="解决方案">解决方案</a> </li>
+					<li><a href="##" title="热门架构套餐">热门架构套餐</a> </li>
+					<li><a href="##" title="架构咨询与服务">架构咨询与服务</a> </li>
+					<li><a href="##" title="客户案例">客户案例</a> </li>
+					<li><a href="##" title="培训与支持">培训与支持</a> </li>
+					
+				</ul>
+			</div>
+		<!-- 头部结束 -->
+		</header>
+
+
+
+
+		<!-- 主体内容开始 -->
+		<main>
+
+		
+			<!-- 主体第一个盒子(放大镜效果) -->
+			<div class="main-one">
+				<div class="m-o-title">
+					<h2><span>|</span>行业品牌</h2>
+				</div>
+				
+				<div class="m-bottom">
+
+					<div class="m-o-left">
+						<h3>【云计算效应】计算驱动的智能时代已经到来</h3>
+						<p>七个开发人员，两个月，融资一个亿，创业公司像飞机，速度够快才能起飞，通过现有的云端资源，我们才能快速地让我们的产品落地，才能让企业野蛮生长，通过阿里云，普通的创业者也能拥有和五百强企业一样的计算资源，和大企业同台竞争，让创业进入快消时代</p>
+						<button>观看视频</button>
+					</div>
+
+					<div class="m-o-right">
+						<img src="images/m-o-right.png" alt="">
+					</div>
+
+				</div>
+				
+			<!-- 主体第一个盒子结束 -->
+			</div>
+
+			<!-- 主体第二个盒子(选项卡效果) -->
+			<div class="main-two">
+				<div class="m-t-title">
+					<div></div>
+					<h2>解决方案</h2>		
+				</div>
+
+				<div class="m-t-top">
+					<h3>热门解决方案</h3>
+					<ul>
+						<li><img src="images/t-gwc-1.png" alt=""><h5>新零售</h5><p>云端商业，数据梦想</p><p>快速搭建平台，助力电商企业实现</p></li>
+						<li><img src="images/t-sp-1.png" alt=""><h5>音视频</h5><p>强大的多媒体处理能力，提供</p><p>量存储、高效分发、极速网络</p></li>
+						<li><img src="images/t-wz-1.png" alt=""><h5>网站</h5><p>降低运维难度和IT成本</p><p>保障网站安全性和稳定性</p></li>
+						<li><img src="images/t-sj-1.png" alt=""><h5>移动APP</h5><p>解决业务爆发式增长</p><p>复杂的移动安全挑战等问题</p></li>
+
+					</ul>
+				</div>
+
+				<div class="m-t-bottom">
+					<h3>全部解决方案</h3>
+					<ul>
+						<li class="xuan-x">行业</li>
+						<li>通用</li>
+						<li>专项</li>
+					</ul>
+					<div class="xuan-x-k">
+						<div>
+							<ul>
+								<li>
+									<img src="images/t-gwc-1.png" alt="">
+									<h5>物联网</h5>
+									<p>安全稳定、全网互通</p>
+									<p>大数据分析，共建物联网生态</p>
+								</li>
+								<li>
+									<img src="images/t-sp-1.png" alt="">
+									<h5>新金融</h5>
+									<p>高弹性、高可用、安全</p>
+									<p>合规，助推金融业务创新</p>
+								</li>
+								<li>
+									<img src="images/t-wz-1.png" alt="">
+									<h5>新能源</h5>
+									<p>专业化云端业务与技术</p>
+									<p>快速搭建标准或定制化平台</p>
+								</li>
+								<li>
+									<img src="images/t-sj-1.png" alt="">
+									<h5>大健康</h5>
+									<p>集合传统医疗优势</p>
+									<p>致力构建智能医疗云生态</p>
+								</li>
+							</ul>
+
+							<ul>
+								<li>
+									<img src="images/t-gwc-1.png" alt="">
+									<h5>物联网</h5>
+									<p>安全稳定、全网互通</p>
+									<p>大数据分析，共建物联网生态</p>
+								</li>
+								<li>
+									<img src="images/t-sp-1.png" alt="">
+									<h5>新金融</h5>
+									<p>高弹性、高可用、安全</p>
+									<p>合规，助推金融业务创新</p>
+								</li>
+								<li>
+									<img src="images/t-wz-1.png" alt="">
+									<h5>新能源</h5>
+									<p>专业化云端业务与技术</p>
+									<p>快速搭建标准或定制化平台</p>
+								</li>
+								<li>
+									<img src="images/t-sj-1.png" alt="">
+									<h5>大健康</h5>
+									<p>集合传统医疗优势</p>
+									<p>致力构建智能医疗云生态</p>
+								</li>
+							</ul>
+
+							<ul>
+								<li>
+									<img src="images/t-gwc-1.png" alt="">
+									<h5>物联网</h5>
+									<p>安全稳定、全网互通</p>
+									<p>大数据分析，共建物联网生态</p>
+								</li>
+								<li>
+									<img src="images/t-sp-1.png" alt="">
+									<h5>新金融</h5>
+									<p>高弹性、高可用、安全</p>
+									<p>合规，助推金融业务创新</p>
+								</li>
+								<li>
+									<img src="images/t-wz-1.png" alt="">
+									<h5>新能源</h5>
+									<p>专业化云端业务与技术</p>
+									<p>快速搭建标准或定制化平台</p>
+								</li>
+								<li>
+									<img src="images/t-sj-1.png" alt="">
+									<h5>大健康</h5>
+									<p>集合传统医疗优势</p>
+									<p>致力构建智能医疗云生态</p>
+								</li>
+							</ul>
+						</div>
+
+						<div class="hidden">
+							<ul>
+								<li>
+									<img src="images/t-gwc-1.png" alt="">
+									<h5>物联网</h5>
+									<p>安全稳定、全网互通</p>
+									<p>大数据分析，共建物联网生态</p>
+								</li>
+								<li>
+									<img src="images/t-sp-1.png" alt="">
+									<h5>新金融</h5>
+									<p>高弹性、高可用、安全</p>
+									<p>合规，助推金融业务创新</p>
+								</li>
+								<li>
+									<img src="images/t-wz-1.png" alt="">
+									<h5>新能源</h5>
+									<p>专业化云端业务与技术</p>
+									<p>快速搭建标准或定制化平台</p>
+								</li>
+								<li>
+									<img src="images/t-sj-1.png" alt="">
+									<h5>大健康</h5>
+									<p>集合传统医疗优势</p>
+									<p>致力构建智能医疗云生态</p>
+								</li>
+							</ul>
+						</div>
+
+						<div class="hidden">
+							<ul>
+								<li>
+									<img src="images/t-gwc-1.png" alt="">
+									<h5>物联网</h5>
+									<p>安全稳定、全网互通</p>
+									<p>大数据分析，共建物联网生态</p>
+								</li>
+								<li>
+									<img src="images/t-sp-1.png" alt="">
+									<h5>新金融</h5>
+									<p>高弹性、高可用、安全</p>
+									<p>合规，助推金融业务创新</p>
+								</li>
+								<li>
+									<img src="images/t-wz-1.png" alt="">
+									<h5>新能源</h5>
+									<p>专业化云端业务与技术</p>
+									<p>快速搭建标准或定制化平台</p>
+								</li>
+								<li>
+									<img src="images/t-sj-1.png" alt="">
+									<h5>大健康</h5>
+									<p>集合传统医疗优势</p>
+									<p>致力构建智能医疗云生态</p>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					
+					
+				</div>
+				
+			<!-- 主体第二个盒子结束 -->
+			</div>
+				
+			<!-- 主体第三个盒子 -->
+			<div class="main-three">
+				<div class="m-t-title">
+					<div></div>
+					<h2>热门架构套餐</h2>		
+				</div>
+				
+				<div class="m-t-zhong">
+					<div class="m-t-left">
+
+						<p>适合网站、APP、电商行业的初创企业快速搭建平台，如网站、APP、电子商城等</p>
+						
+						<ul>
+							<li>架构性能</li>
+							<span>1. 承载日均流量1w~10w PV</span>
+							<br>
+							<span>2. 有效成单量约300单/天</span>
+						</ul>
+						<ul>
+							<li>为您解决的问题</li>
+							<span>1. 云产品随时升级扩容</span>
+							<span>2. 轻松应对高并发</span>
+							<br>
+							<span>3. 负载均衡一键搭建灵活扩展</span>
+							<span>4. 网站防DDos攻击</span>
+						</ul>
+					</div>
+
+					<div class="m-t-right">
+						<img src="images/m-three.png" alt="">
+					</div>
+
+				</div>
+
+				<div class="m-t-xia">
+					<div>
+						<h4>标准版</h4>
+						<p>适用于小型初创企业快速搭建平台</p>
+
+						<ul>
+							<li>云服务器ECS ＊2</li>
+							<li>云数据库RDS ＊1</li>
+							<li>负载均衡SLB ＊1</li>
+						</ul>
+
+						<ul>
+							<li>系列1｜2核4G | 1M</li>
+							<li>MySQL | 1核1G 5G存储起</li>
+							<li>带宽按量付费</li>
+						</ul>
+
+						<span><b>免费赠送:</b>￥200/月 块存储代金券 +￥50/月 安骑士代</span>
+						<span> 金券年付赠￥2400 块存储代金券+￥600 安骑士代金券</span>
+
+						<h5>¥606 <b>/月</b></h5>
+						<button class="btn btn-primary" type="button">点击购买</button>
+					</div>
+
+					<div>
+						<h4>进阶版</h4>
+						<p>适用于小型初创企业快速搭建平台</p>
+
+						<ul>
+							<li>云服务器ECS ＊2</li>
+							<li>云数据库RDS ＊1</li>
+							<li>负载均衡SLB ＊1</li>
+						</ul>
+
+						<ul>
+							<li>系列2｜2核4G | 1M</li>
+							<li>MySQL | 1核2G 5G存储起</li>
+							<li>按量付费</li>
+						</ul>
+						<span><b>免费赠送:</b>￥200/月 块存储代金券 +￥50/月 安骑士代</span>
+						<span>金券年付赠￥2400 块存储代金券+￥600 安骑士代金券</span>
+
+						<h5>¥805 <b>/月</b></h5>
+						<button class="btn btn-primary" type="button">点击购买</button>
+						
+					</div>
+
+					<div>
+						<h4>旗舰版</h4>
+						<p>适用于小型初创企业快速搭建平台</p>
+
+						<ul>
+							<li>云服务器ECS ＊2</li>
+							<li>云数据库RDS ＊1</li>
+							<li>负载均衡SLB ＊1</li>
+						</ul>
+
+						<ul>
+							<li>系列1｜4核8G | 1M</li>
+							<li>MySQL | 2核4G 5G存储起</li>
+							<li>按量付费</li>
+						</ul>
+
+						<span><b>免费赠送:</b>￥200/月 块存储代金券 +￥50/月 安骑士代</span>
+						<span>金券年付赠￥2400 块存储代金券+￥600 安骑士代金券</span>
+
+						<h5>¥1560 <b>/月</b></h5>
+						<button class="btn btn-primary" type="button">点击购买</button>
+						
+					</div>
+				</div>
+
+			<!-- 主体第三个盒子结束 -->
+			</div>
+
+
+
+			<!-- 主体第四个盒子 -->
+			<div class="main-four">
+				<div class="m-f-title">
+					<div></div>
+					<h2>架构咨询与服务</h2>		
+				</div>		
+				<div class="m-f-left">
+					<div class="m-f-top">
+						<h4>上云测试</h4>
+						<img src="images/f-l-2.png" alt="">
+						<p>完成认证，赢<b>￥300</b>元测试代金券</p>
+						<button>查看详情</button>
+						
+					</div>
+
+					<div class="m-f-bottom">
+						<h4>电子合同生成</h4>
+						<img src="images/f-l-2.png" alt="">
+						<ul>
+							<li>1.确认下单
+								<p>购买套餐，一键下单</p>						
+							</li>
+							<li>1.生成电子合同
+								<p>选择订单，生成合同</p>						
+							</li>
+							
+						</ul>
+						
+						<button>生成合同</button>
+
+					</div>
+
+				</div>
+				
+				<div class="m-f-right">
+					<h3>架构咨询与服务</h3>
+					<div class="m-f-xian"></div>
+					<ul>
+						<li class="m-f-one"><img src="images/f-1.png" alt=""><p>俞翔</p>高级架构师</li>
+						<li><img src="images/f-2.png" alt=""><p>俞翔</p>高级架构师</li>
+						<li><img src="images/f-3.png" alt=""><p>俞翔</p>高级架构师</li>
+						<li><img src="images/f-4.png" alt=""><p>俞翔</p>高级架构师</li>
+						<li><img src="images/f-5.png" alt=""><p>俞翔</p>高级架构师</li>
+					</ul>
+					<div class="m-f-xuan">
+						<div>阿里云高级专家、阿里云电商行业架构师团队负责人。具有十年以上互联网架构及政府企业信息化项目经验，对云计算、大数据均有精深的理解及丰富的应用经验，现致力于电商行业与云计算、大数据技术的融合发展。</div>
+						<div class="hidden2">博士，阿里云电商行业、政府行业资深专家。专注于云计算行业解决方案、大数据应用、企业级架构（EA）等领域，在互联网、公安、司法、汽车、金融等行业有深入的理解和丰富的从业经验，擅长行业解决方案的咨询与落地</div>
+						<div class="hidden2">阿里云电商行业资深专家，华中科技大学硕士研究生。2011年加入阿里后，一直从事数据开发、建模和架构的工作，熟悉业界主流的计算平台和开发工具，专注于电商、互联网金融行业的大数据应用解决方案，对网站高性能架构和音视频技术有深入研究。</div>
+						<div class="hidden2">阿里云电商行业、政府行业资深架构师。具有八年以上的一线研发经验，曾带领研发团队多次完成优秀产品交付。专注于电商，政府行业相关业务，对如何通过技术提升业务价值有深刻的理解与实践。</div>
+						<div class="hidden2">阿里云资深技术专家，专注于上云、去O、混合云解决方案以及售中业务落地技术。具有五年以上电商、游戏、广告等互联网行业从业经验。专精于数据库领域，擅长海量数据库架构设计与优化，有丰富的数据库运维管理和问题诊断经验，专长于为客户提供云上数据库</div>
+						
+					</div>
+					<ul>
+						<li>
+							<img src="images/f-r-1.png" alt="">
+							<p>量身定制解决方案</p>
+							1V1咨询，分析上云可行性
+						</li>
+						<li>
+							<img src="images/f-r-2.png" alt="">
+							<p>成功案例解析</p>
+							架构解析，深度解读成功架构
+						</li>
+						<li>
+							<img src="images/f-r-3.png" alt="">
+							<p>成熟架构一键选购</p>
+							多款成熟架构，超值推荐
+						</li>
+					</ul>
+					<button>我要咨询</button>
+
+				</div>
+
+			<!-- 主体第四个盒子结束 -->
+			</div>
+
+
+
+			<!-- 主体第五个盒子 -->
+			<div class="main-five" id="main-five">
+				<div class="m-f-title">
+					<div></div>
+					<h2>客户案例</h2>		
+				</div>	
+				<ul >
+					<li><img src="images/1.png" alt=""></li>
+					<li><img src="images/2.png" alt=""></li>
+					<li><img src="images/3.png" alt=""></li>
+					<li><img src="images/4.png" alt=""></li>
+				</ul >
+				<ul>
+					<li><img src="images/5.png" alt=""></li>
+					<li><img src="images/6.png" alt=""></li>
+					<li><img src="images/7.png" alt=""></li>
+					<li><img src="images/8.png" alt=""></li>
+
+				</ul>
+
+			<!-- 主体第五个盒子结束 -->
+			</div>
+
+			
+			<hr>
+			<!-- 主体第六个盒子 -->
+			<div class="main-sex">
+				
+				<div class="m-s-title">
+					<div></div>
+					<h2>培训与支持</h2>		
+				</div>
+				<div class="m-s-xia">
+					<div>
+						<img src="images/m-ws-1.png" alt="">
+						<ul>
+							<h5>培训中心</h5>
+							<li>结合案例，体验真实环境</li>
+							<li>课程免费，随时掌握产品与技术</li>
+						</ul>
+						
+					</div>
+					<div>
+						<img src="images/m-cz-1.png" alt="">
+						<ul>
+							<h5>定价中心</h5>
+							<li>根据业务需求选择预算，满足不同</li>
+							<li>业务、使用场景对成本节约需</li>
+						</ul>
+					</div>
+					<div>
+						<img src="images/m-sb-1.png" alt="">
+						<ul>
+							<h5>信任中心</h5>
+							<li>提供创新的安全产品与服务</li>
+							<li>用户轻松共享阿里云安全能力</li>
+						</ul>
+
+					</div>
+
+				</div>
+				
+	
+			<!-- 主体第六个盒子结束 -->
+			</div>
+		
+		<!-- 主体内容结束 -->
+		</main>
+
+
+
+
+		<!-- 尾部开始 -->
+		<footer>
+			<div class="foot">
+				<!--尾部上面的盒子  -->
+				<div class="footer-shang">
+					<div class="f-left">
+						<img src="images/dianhua.gif" alt="">
+						<ul>
+							<p>售前咨询</p>
+							<h4>95187转1</h4>
+							<li><a href="#">全方位的购买咨询</a></li>
+							<li><a href="#">精准的配置推荐</a></li>
+							<li><a href="#">灵活的价格方案</a></li>
+							<li><a href="#">1对1贴心服务</a></li>
+						</ul>
+					</div>
+					<div class="f-right">
+						<ul>
+							<h5>服务与支持</h5>
+							<li><a href="#">售前咨询</a></li>
+							<li><a href="#">阿里云授权服务中心</a></li>
+							<li><a href="#">联系客服</a></li>
+							<li><a href="#">新手学堂</a></li>
+							<li><a href="#">上云培训</a></li>
+							<li><a href="#">服务公告</a></li>
+							<li><a href="#">信任中心</a></li>
+							<li><a href="#">举报中心</a></li>
+
+						</ul>
+
+						<ul>
+							<h5>账号与支持</h5>
+							<li><a href="#">登录常见问题</a></li>
+							<li><a href="#">充值付款</a></li>
+							<li><a href="#">线下汇款 / 电汇</a></li>
+							<li><a href="#">合同申请</a></li>
+							<li><a href="#">索取发票</a></li>
+
+						</ul>
+
+						<ul>
+							<h5>快速入口</h5>
+							<li><a href="#">管理控制台</a></li>
+							<li><a href="#">备案管理</a></li>
+							<li><a href="#">账号管理</a></li>
+							<li><a href="#">域名信息查询（WHOIS）</a></li>
+							<li><a href="#">域名控制台</a></li>
+							<li><a href="#">万网主机控制面板</a></li>
+							<li><a href="#">产品图标</a></li>
+
+						</ul>
+
+						<ul>
+							<h5>其他</h5>
+							<li><a href="#">定价</a></li>
+							<li><a href="#">客户案例</a></li>
+							<li><a href="#">新产品发布台</a></li>
+							<li><a href="#">海外上云</a></li>
+							<li><a href="#">建议与反馈</a></li>
+
+						</ul>
+
+						<ul>
+							<h5>关注阿里云</h5>
+							<li><a href="#">阿里云APP</a></li>
+							<li><a href="#">阿里云微信</a></li>
+							<li><a href="#">阿里云微博</a></li>
+							<li><a href="#">阿里云服务中心</a></li>
+						</ul>
+
+					</div>
+					<!-- 尾部上面的盒子结束 -->
+				</div>	
+
+
+					<!-- 尾部下面的盒子 -->
+					<div class="footer-xia">
+						<ul>
+							<h5>热门产品</h5>
+							<li><a href="#">云服务器</a></li>
+							<li><a href="#">云数据库</a></li>
+							<li><a href="#">云存储O</a></li>
+							<li><a href="#">内容分发</a></li>
+							<li><a href="#">负载均衡</a></li>
+							<li><a href="#">域名注册</a></li>
+							<li><a href="#">网站建设</a></li>
+							<li><a href="#">大数据S</a></li>
+							<li><a href="#">云计算D</a></li>	
+
+						</ul>
+
+						<ul>
+							<h5>用户热搜</h5>
+							<li><a href="#">网站备案</a></li>
+							<li><a href="#">专有网络</a></li>
+							<li><a href="#">短信服务</a></li>
+							<li><a href="#">AP网关</a></li>
+							<li><a href="#">企业邮箱</a></li>
+							<li><a href="#">wh查询</a></li>
+							<li><a href="#">NA网关</a></li>
+							<li><a href="#">网站模板</a></li>
+							<li><a href="#">云安全</a></li>
+
+						</ul>
+
+						<ul>
+							<h5>更多推荐</h5>
+							<li><a href="#">Mg技术</a></li>
+							<li><a href="#">云栖问答</a></li>
+							<li><a href="#">云栖博客</a></li>
+							<li><a href="#">IT论坛</a></li>
+							<li><a href="#">阿里客服</a></li>
+							<li><a href="#">云虚机</a></li>
+							<li><a href="#">com域名</a></li>
+							<li><a href="#">cn域名</a></li>
+							<li><a href="#">sp技术</a></li>
+
+						</ul>
+					<!-- 尾部下面的盒子结束 -->
+					</div>
+			</div>
+			
+			
+				<aside class="aside" id="aside">
+					<div class="a-one">点我提问</div>
+					<div class="a-two"><img src="images/dianhua2.gif" alt=""></div>
+					<div class="a-three"><a href="#maodian"><img src="images/jiantou.jpg" alt=""></a></div>
+				</aside>
+
+
+				<div id="m-fixed">
+					<ul>
+						<li><i>b</i>解决方案</li>
+						<li><a href="##">行业品牌故事</a><b><img src="images/new.png" alt=""></b></li>
+						<li><a href="##">解决方案</a> </li>
+						<li><a href="##">热门架构套餐</a> </li>
+						<li><a href="##">架构咨询与服务</a> </li>
+						<li><a href="##">客户案例</a> </li>
+						<li><a href="##">培训与支持</a> </li>
+						
+					</ul>
+					<div class="caidan">
+						<ol>
+							<li>通用解决方案 <span>></span> </li>
+							<li>行业解决方案 <span>></span></li>
+							<li>专项解决方案 <span>></span></li>
+						</ol>
+						<div>
+							
+						</div>
+					</div>			
+				</div>
+			</div>
+		<!-- 尾部结束 -->
+		</footer>
+
+
+		
+	<!-- 最大的盒子结束 -->
+	</div>
+</body>
+</html>
