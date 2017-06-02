@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+//公共样式
+
+//margin居中
+.center(){
+	margin-left:auto;
+	margin-right:auto;
+}
+
+//calc居中
+//.ca(@ca){
+//	calc:(~"50% - " @ca );
+//}
+
+//设置浮动
+.fl(@fl:left){
+	float:@fl;
+}
+.fr(@fr:right){
+	float:@fr;
+}
+
+
+//设置定位
+//绝对定位
+.abso(){
+	position:absolute;
+}
+//相对定位
+.rela(){
+	position:relative;
+}
+
+//背景颜色
+.bg(@bg:silver){
+	background:@bg;
+}
+
+//内容居中
+.text(@text:center){
+	text-align:center;
+}
+
+//手型
+.cursor(@cur:pointer){
+	cursor:pointer;
+}
+
+//加粗
+.weight(@weight:500){
+	font-weight:@weight;
+}
+#container{
+	width:100%;
+	.center();		
+}
+
+a{
+	text-decoration:none;
+}
+
